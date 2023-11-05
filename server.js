@@ -2,6 +2,7 @@ const express = require("express");
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./swagger'); // Import the Swagger configuration
+const cors = require("cors");
 require("dotenv").config();
 
 const app = express();
@@ -9,6 +10,8 @@ const port = 4444; // 4444 for local dev, 3000 for Docker
 
 app.use(express.json());
 app.use("/", express.static("build"));
+
+app.use(cors());
 
 // Serve the Swagger UI documentation
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
@@ -296,5 +299,5 @@ app.post("/config", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Example app listening at https://legisense-backend.onrender.com`);
 });
