@@ -1,0 +1,42 @@
+{
+    "query": [
+        {
+            "query": "i need help with a legal metter pertaining to data in schools what legislation can help me?",
+            "start": 0,
+            "numResults": 10,
+            "contextConfig": {
+                "charsBefore": 30,
+                "charsAfter": 30,
+                "sentencesBefore": 3,
+                "sentencesAfter": 3,
+                "startTag": "<b>",
+                "endTag": "</b>"
+            },
+            "corpusKey": [
+                {
+                    "customerId": 1236398232,
+                    "corpusId": 3,
+                    "semantics": "DEFAULT",
+                    "dim": [
+                        {
+                            "name": "string",
+                            "weight": 0
+                        }
+                    ],
+                    "metadataFilter": "part.lang = 'eng'",
+                    "lexicalInterpolationConfig": {
+                        "lambda": 0
+                    }
+                }
+            ],
+            "summary": [
+                {
+                    "summarizerPromptName": "vectara-summary-ext-v1.2.0",
+                    "maxSummarizedResults": 3,
+                    "responseLang": "eng"
+                    
+                }
+            ]
+        }
+    ]
+}

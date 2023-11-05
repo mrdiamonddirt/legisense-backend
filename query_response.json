@@ -1,0 +1,585 @@
+{
+    "responseSet": [
+        {
+            "response": [
+                {
+                    "text": "(4A)This subsection applies to— (a)the responsible authority, (b)a person specified in subsection (6), and (c)a person who the responsible authority considers may contribute to the achievement of the purpose described in subsection (2). (4B)A disclosure under subsection (4) does not breach— (a)any obligation of confidence owed by the person making the disclosure, or (b)any other restriction on the disclosure of information (however imposed). (4C)But subsection (4) does not authorise a disclosure of information that— (a)would contravene the data protection legislation (but in determining whether it would do so, the power in that subsection is to be taken into account), or (b)would be prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016. <b>(4D)Subsection (4E) applies if a person who may disclose or receive information by virtue of subsection (4) would not otherwise be a competent authority for the purposes of Part 3 of the Data Protection Act 2018 (law enforcement processing) in relation to the processing by that person of personal data by virtue of that subsection.</b> (4E)The person is to be treated as a competent authority for the purposes of that Part in relation to the processing by that person of personal data by virtue of subsection (4). (4F)But subsection (4E) does not apply to an intelligence service within the meaning of Part 4 of the Data Protection Act 2018 (see section 82(2) of that Act). (4G)Subsections (4) to (4F) do not affect any power to disclose information apart from that conferred by subsection (4).”",
+                    "score": 0.6979766,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "189Arrangements for assessing etc risks posed by certain offenders"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"2022 CHAPTER 32\",\"PART 10Management of offenders\",\"CHAPTER 4Management of terrorist offenders\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "354"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "1681"
+                        },
+                        {
+                            "name": "len",
+                            "value": "332"
+                        }
+                    ],
+                    "documentIndex": 0,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 790,
+                    "resultLength": 332
+                },
+                {
+                    "text": "49Interpretation of Part etc (1)In this Part, “age-disputed person” means a person— (a)who requires leave to enter or remain in the United Kingdom (whether or not such leave has been given), and (b)in relation to whom— (i)a local authority, (ii)a public authority specified in regulations under section 50(1)(b), or (iii)the Secretary of State, has insufficient evidence to be sure of their age. (2)In this Part— “decision-maker” means a person who conducts an age assessment under section 50 or 51; “designated person” means an official of the Secretary of State who is designated by the Secretary of State to conduct age assessments under section 50 or 51; “immigration functions” means functions exercisable by virtue of the Immigration Acts; “immigration officer” means a person appointed by the Secretary of State as an immigration officer under paragraph 1 of Schedule 2 to the Immigration Act 1971; “local authority”— (a)in relation to England and Wales, means a local authority within the meaning of the Children Act 1989 (see section 105(1) of that Act), (b)in relation to Scotland, means a council constituted under section 2 of the Local Government etc (Scotland) Act 1994, and (c)in relation to Northern Ireland, means a Health and Social Care trust established under Article 10 of the Health and Personal Social Services (Northern Ireland) Order 1991 (S.I. 1991/194 (N.I. 1)); “public authority” means a public authority within the meaning of section 6 of the Human Rights Act 1998, other than a court or tribunal; “specified scientific method” means a method used for assessing a person’s age which is specified in regulations under section 52(1). <b>(3)In this Part, “relevant children’s legislation” means— (a)in relation to a local authority in England, any provision of or made under Part 3, 4 or 5 of the Children Act 1989 (support for children and families; care and supervision; protection of children); (b)in relation to a local authority in Wales, Scotland or Northern Ireland, any statutory provision (including a provision passed or made after the coming into force of this Part) that confers a corresponding function on such an authority.</b> (4)In subsection (3)— “corresponding function” means a function that corresponds to a function conferred on a local authority in England by or under Part 3, 4 or 5 of the Children Act 1989; “statutory provision” means a provision made by or under— (a)an Act, (b)an Act of the Scottish Parliament, (c)an Act or Measure of Senedd Cymru, or (d)Northern Ireland legislation. (5)In section 94 of the Immigration and Asylum Act 1999 (support for asylum-seekers: interpretation), for subsection (7) substitute— “(7)For further provision as to the conduct of age assessments, which applies for the purposes of this Part, see Part 4 of the Nationality and Borders Act 2022.” 50Persons subject to immigration control: referral or assessment by local authority etc",
+                    "score": 0.6973994,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "49Interpretation of Part etc"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"2022 CHAPTER 36\",\"PART 4Age Assessments\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "106"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "1633"
+                        },
+                        {
+                            "name": "len",
+                            "value": "499"
+                        }
+                    ],
+                    "documentIndex": 1,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 1665,
+                    "resultLength": 499
+                },
+                {
+                    "text": "(4)The Secretary of State may by regulations amend subsection (3) so as to add, vary or remove a category of education or training. (5)A condition may be specified in regulations under subsection (1)(a) only where the Secretary of State considers that specifying the condition in relation to a relevant provider may assist in preventing, or mitigating the adverse effects of, a disorderly cessation in the provision of education or training by the relevant provider. (6)Regulations under subsection (1) may— (a)specify different conditions in relation to different descriptions of relevant education or training; (b)provide for a relevant provider to be on the list only in respect of one or more descriptions of relevant education or training; (c)confer functions (including functions involving the exercise of a discretion) on the Secretary of State or any other person. <b>(7)The conditions that may be specified include conditions— (a)relating to the relevant provider having a student support plan and making it available; (b)relating to the relevant provider having insurance cover; (c)for ensuring that persons having general control and management of, or legal responsibility and accountability for, the relevant provider are fit and proper persons to be involved in that activity; (d)relating to the relevant provider giving access to, or providing, information (including information about persons for whom the relevant provider is, or has been, providing relevant education or training) to the Secretary of State; (e)relating to the relevant provider taking action specified in directions given by the Secretary of State.</b> (8)For the purposes of subsection (7)(a), a “student support plan” means a plan for supporting students in the event of a cessation in the provision of education or training. (9)Different conditions may be specified— (a)for being added to, or remaining on, the list; (b)for different descriptions of relevant provider. (10)Regulations under subsection (1)(b) may, among other things, make provision— (a)for the charging of fees in connection with entries on the list; (b)about the procedure for applications to be added to, or remain on, the list; (c)about the removal of entries from, or the restoration of entries to, the list; (d)about appeals against decisions relating to the list; (e)permitting or requiring the disclosure of information; (f)about publication of the list.",
+                    "score": 0.6932314,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "19List of relevant providers"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"2022 CHAPTER 21\",\"Part 3Protection for learners\",\"Chapter 1Regulation of post-16 education or traini...\",\"Funding arrangements with post-16 education or tra...\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "48"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "2462"
+                        },
+                        {
+                            "name": "len",
+                            "value": "756"
+                        }
+                    ],
+                    "documentIndex": 2,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 876,
+                    "resultLength": 756
+                },
+                {
+                    "text": "60Code of practice relating to non-criminal hate incidents (1)The Secretary of State may issue a code of practice about the processing by a relevant person of personal data relating to a hate incident. (2)In this section “hate incident” means an incident or alleged incident which involves or is alleged to involve an act by a person (“the alleged perpetrator”) which is perceived by a person other than the alleged perpetrator to be motivated (wholly or partly) by hostility or prejudice towards persons with a particular characteristic. <b>(3)The provision that may be made by a code of practice under this section includes, in particular, provision about— (a)whether and how personal data relating to a hate incident should be recorded; (b)the persons who are to process such personal data; (c)the circumstances in which a data subject should be notified of the processing of such personal data; (d)the retention of such personal data, including the period for which it should be retained and the circumstances in which and the procedures by which that period might be changed; (e)the consideration by a relevant person of requests by the data subject relating to such personal data.</b> (4)But a code of practice under this section must not make provision about— (a)the processing of personal data for the purposes of a criminal investigation, or (b)the processing of personal data relating to the alleged perpetrator of a hate incident at any time after they have been charged with an offence relating to the hate incident. (5)A code of practice under this section may make different provision for different purposes. (6)A relevant person must have regard to the code of practice that is for the time being in force under this section in processing personal data relating to a hate incident.",
+                    "score": 0.69022393,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "60Code of practice relating to non-criminal hate incidents"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"2022 CHAPTER 32\",\"PART 2Prevention, investigation and prosecution of...\",\"CHAPTER 4Other provisions\",\"Non-criminal hate incidents\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "99"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "480"
+                        },
+                        {
+                            "name": "len",
+                            "value": "644"
+                        }
+                    ],
+                    "documentIndex": 0,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 542,
+                    "resultLength": 644
+                },
+                {
+                    "text": "(6)A statutory instrument within subsection (5) is subject to annulment in pursuance of a resolution of either House of Parliament. 23Index of defined expressions In this Chapter an expression listed in the first column of the table has the meaning given by, or is to be interpreted in accordance with, the corresponding provision listed in the second column. <b>ExpressionProvisionthe data protection legislation section 10(10) educational authority section 12(1) and Schedule 2 educational authority for a local government area section 12(2) and Schedule 2 educational authority for a relevant area section 9(13) health or social care authority section 10(9) local government area section 11(4) patient information section 10(9) personal information section 10(9) preventing serious violence section 13(1) and (2) prison authority section 12(1) and Schedule 2 prison authority for a local government area section 12(2) and Schedule 2 prison authority for a relevant area section 9(13) reducing serious violence section 13(1) relevant area section 9(13) serious violence section 13(6) specified authority section 11(1) and Schedule 1 specified authority for a local government area section 11(6) and Schedule 1 specified authority for a relevant area section 9(13) violence section 13(3) youth custody authority section 12(1) and Schedule 2 youth custody authority for a local government area section 12(2) and Schedule 2 youth custody authority for a relevant area section 9(13)</b> CHAPTER 2Offensive weapons homicide reviews 24Duty to arrange a review (1)Where a review partner considers that— (a)the death of a person was, or is likely to have been, a qualifying homicide, (b)the death occurred, or is likely to have occurred, in England or Wales, (c)such other conditions as the Secretary of State may specify by regulations are satisfied, including, for example, conditions relating to— (i)the circumstances of or relating to the death, (ii)the circumstances or history of the person who died, or (iii)the circumstances or history of other persons with a connection to the death, and (d)the review partner is one of the relevant review partners in respect of the death (see section 25), the review partner must join with the other relevant review partners in respect of the death in arranging for there to be a review under this section of the person’s death.",
+                    "score": 0.6891081,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "23Index of defined expressions"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"2022 CHAPTER 32\",\"PART 2Prevention, investigation and prosecution of...\",\"CHAPTER 1Functions relating to serious violence\",\"General\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "36"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "197"
+                        },
+                        {
+                            "name": "len",
+                            "value": "1117"
+                        }
+                    ],
+                    "documentIndex": 0,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 363,
+                    "resultLength": 1117
+                },
+                {
+                    "text": "(4F)But subsection (4E) does not apply to an intelligence service within the meaning of Part 4 of the Data Protection Act 2018 (see section 82(2) of that Act). (4G)Subsections (4) to (4F) do not affect any power to disclose information apart from that conferred by subsection (4).” (5)In subsection (6), in the opening words, after “(3)” insert “, (4A)(b)”. <b>(6)In subsection (9), at the appropriate places insert— ““the data protection legislation” has the same meaning as in the Data Protection Act 2018 (see section 3 of that Act);”; ““involvement in terrorism-related activity” has the same meaning as in the Terrorism Prevention and Investigation Measures Act 2011 (see section 4 of that Act);”; ““personal data” has the same meaning as in the Data Protection Act 2018 (see section 3(2) of that Act);”; ““processing” has the same meaning as in the Data Protection Act 2018 (see section 3(4) of that Act);”.</b> (7)Section 327 of the Criminal Justice Act 2003 (interpretation of section 325) is amended in accordance with subsections (8) to (10). (8)In subsection (3)— (a)in paragraph (a)— (i)for “is” substitute “has been”, and (ii)after “specified in” insert “Part 1 or 2 of”, and (b)in paragraph (b)— (i)in the words before sub-paragraph (i), for “is” substitute “was”, (ii)in sub-paragraph (i), for “for a term of 12 months or more” substitute “that is not for a term of less than 12 months”, and (iii)after sub-paragraph (v) insert— “(va)a sentence of custody for life under section 93 or 94 of the Powers of Criminal Courts (Sentencing) Act 2000 or under section 272 or 275 of the Sentencing Code,”. (9)In subsection (4)(a), after “specified in” insert “Part 1 or 2 of”.",
+                    "score": 0.6881933,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "189Arrangements for assessing etc risks posed by certain offenders"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"2022 CHAPTER 32\",\"PART 10Management of offenders\",\"CHAPTER 4Management of terrorist offenders\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "354"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "2550"
+                        },
+                        {
+                            "name": "len",
+                            "value": "552"
+                        }
+                    ],
+                    "documentIndex": 0,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 361,
+                    "resultLength": 552
+                },
+                {
+                    "text": "(9)For the purposes of paragraph (5)(a), a person’s “electoral number” is the number— (a)allocated to the person as stated in the copy of the register of electors, or (b)where an entry relating to the person is added to the register in pursuance of a notice issued under section 13B(3B) or (3D), as stated in the copy of that notice. (10)Except as provided by paragraph (11), a disclosure of information under this rule does not breach— (a)any obligation of confidence owed by the presiding officer, the returning officer or a registration officer, or (b)any other restriction on the disclosure of information (however imposed). (11)Nothing in this rule authorises the making of a disclosure that contravenes the data protection legislation (but in determining whether a disclosure would do so, the duties imposed by paragraphs (2) and (3) are to be taken into account). <b>(12)In this rule— (a)“the data protection legislation” has the same meaning as in the Data Protection Act 2018 (see section 3(9) of that Act); (b)references to the relevant registration officer are to— (i)the registration officer of the local authority in whose area the constituency is situated, or (ii)if the constituency comprises any part of the area of more than one local authority, the registration officer of the local authority in whose area the greater or greatest (as the case may be) number of electors is registered.”</b> 25In rule 43 (procedure on close of poll), after paragraph (1)(da) insert— “(db)in the case of an election held in England and Wales or Scotland, the ballot paper refusal list completed in accordance with rule 40ZB, (dc)in the case of an election held in Northern Ireland, the lists provided to the polling station under rule 29(3)(f),”. 26After rule 53A insert— “Destruction of date of birth lists: Northern Ireland",
+                    "score": 0.6877389,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "“Collection and disclosure of information relating to applications made under rules 37 to 40"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"Schedules\",\"Schedule 1Voter identification\",\"Amendments of RPA 1983\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "129"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "3009"
+                        },
+                        {
+                            "name": "len",
+                            "value": "530"
+                        }
+                    ],
+                    "documentIndex": 3,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 874,
+                    "resultLength": 530
+                },
+                {
+                    "text": "Specified authorityLocal government areaA fire and rescue authority constituted by a scheme under section 2 of the Fire and Rescue Services Act 2004 or a scheme to which section 4 of that Act applies Each local government area which, or any part of which, coincides with or falls within the authority’s area A fire and rescue authority created by an order under section 4A of the Fire and Rescue Services Act 2004 Each local government area which, or any part of which, coincides with or falls within the authority’s area A metropolitan county fire and rescue authority Each district which falls within the authority’s area The London Fire Commissioner Each London borough and the City of London Section 12 SCHEDULE 2Educational, prison and youth custody authorities Educational authorities <b>Educational authorityLocal government areaThe governing body of— (a)a community, foundation or voluntary school, or (b)a community or foundation special school, other than a school which is used wholly for the purpose of providing education for children who are under compulsory school age Each local government area in which the school is located The proprietor (within the meaning given by section 579(1) of the Education Act 1996) of— (a)an Academy school, (b)a 16 to 19 Academy, or (c)an alternative provision Academy Each local government area in which the Academy is located The proprietor (within the meaning given by section 579(1) of the Education Act 1996) of any school that has been approved under section 342 of the Education Act 1996, other than a school which is used wholly for the purpose of providing education for children who are under compulsory school age Each local government area in which the school is located The proprietor (within the meaning given by section 138(1) of the Education and Skills Act 2008) of any other independent educational institution registered under section 95(1) of that Act Each local government area in which the educational institution is located The proprietor (within the meaning given by section 579(1) of the Education Act 1996) of any other independent school registered under section 158 of the Education Act 2002 Each local government area in which the school is located The governing body of an educational establishment maintained by a local authority in Wales Each local government area in which the educational establishment is located The management committee of a pupil referral unit Each local government area in which the pupil referral unit is located Any other provider of education or training to which Chapter 3 of Part 8 of the Education and Inspections Act 2006 applies, other than a provider that— (a)is registered under the register maintained by the Office for Students under section 3 of the Higher Education and Research Act 2017, and (b)is not an institution within the further education sector as defined by section 91(3) of the Further and Higher Education Act 1992.</b> Each local government area in which education or training is provided by that provider Prison authorities Prison authorityLocal government areaThe governor of a prison in England and Wales (or, in the case of a contracted out prison within the meaning given by section 84(4) of the Criminal Justice Act 1991, its director) The local government area in which the prison is located",
+                    "score": 0.68694913,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "Educational authorities"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"SCHEDULES\",\"SCHEDULE 2Educational, prison and youth custody au...\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "400"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "0"
+                        },
+                        {
+                            "name": "len",
+                            "value": "2148"
+                        }
+                    ],
+                    "documentIndex": 0,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 794,
+                    "resultLength": 2148
+                },
+                {
+                    "text": "(4)A statutory instrument containing (whether alone or with other provision) regulations to which this sub-paragraph applies may not be made unless a draft of the instrument has been laid before and approved by a resolution of the House of Commons. (5)Any other statutory instrument containing regulations under this Schedule is subject to annulment in pursuance of a resolution of the House of Commons. Interpretation of Schedule <b>42(1)In this Schedule— “adjusted value” is to be construed in accordance with paragraph 3; “asset” is to be construed in accordance with paragraph 1(10); “company” means a body corporate; “the data protection legislation” has the same meaning as in the Data Protection Act 2018 (see section 3 of that Act); “discovery assessment” is to be construed in accordance with paragraph 18(1); “disposal” is to be construed in accordance with paragraph 1(10); “disqualifying period” is to be construed in accordance with paragraph 4(4); “disqualifying steps” is to be construed in accordance with paragraph 1; “fair value”, in relation to an asset held by a person (“P”), means the amount which, at the time as at which the value is to be determined, is the amount which P would obtain from an independent person dealing at arm’s length for— (a)in the case of an asset comprising rights and liabilities, the transfer of P’s rights under the asset and the release of all P’s liabilities under it, or (b)in any other case, the transfer of the asset; “principal taxpayer” is to be construed in accordance with (as the case may require) paragraph 4(1), 5(1) or 5(2); “public interest business” is to be construed in accordance with paragraph 2(1); “qualifying purpose” is to be construed in accordance with paragraph 1; “special measures” is to be construed in accordance with paragraph 2(3); “tax” (except where the context otherwise requires) means public interest business protection tax; “the Taxes Acts” has the meaning given by section 118(1) of TMA 1970; “the tribunal” means the First-tier Tribunal or, where determined by or under Tribunal Procedure Rules, the Upper Tribunal.</b> (2)For the purposes of this Schedule— (a)whether a person is connected with another person is to be determined in accordance with section 1122 of CTA 2010, and (b)whether a person controls a company is to be determined in accordance with section 1124(2) of that Act. (3)Subsections (5) to (7) of section 118 of TMA 1970 (meaning of references to bringing about loss of tax or situation carelessly or deliberately) apply for the purposes of this Schedule as they apply for the purposes of that Act. (4)The Treasury may by regulations make further provision about the meaning and application of “fair value” in cases specified in the regulations.",
+                    "score": 0.6849407,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "Interpretation of Schedule"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"SCHEDULES\",\"SCHEDULE 10Public interest business protection tax...\",\"PART 4Supplementary\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "389"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "0"
+                        },
+                        {
+                            "name": "len",
+                            "value": "1672"
+                        }
+                    ],
+                    "documentIndex": 4,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 434,
+                    "resultLength": 1672
+                },
+                {
+                    "text": "(8)For the purposes of subsection (7)(a), a “student support plan” means a plan for supporting students in the event of a cessation in the provision of education or training. (9)Different conditions may be specified— (a)for being added to, or remaining on, the list; (b)for different descriptions of relevant provider. (10)Regulations under subsection (1)(b) may, among other things, make provision— (a)for the charging of fees in connection with entries on the list; (b)about the procedure for applications to be added to, or remain on, the list; (c)about the removal of entries from, or the restoration of entries to, the list; (d)about appeals against decisions relating to the list; (e)permitting or requiring the disclosure of information; (f)about publication of the list. <b>(11)The provision mentioned in subsection (10)(e) includes provision about information relating to— (a)persons for whom relevant education or training is or has been provided; (b)persons having general control and management of, or legal responsibility and accountability for, a relevant provider.</b> 20Prohibitions on entering into funding arrangements with providers (1)If the Secretary of State makes regulations under section 19(1)(a) for the keeping of a list, the following provisions apply in relation to the making of funding arrangements while the regulations are in force. (2)A funding authority must not enter into relevant funding arrangements with a relevant provider unless— (a)the relevant provider is on the list in respect of the education or training to which the funding arrangements relate, and (b)the funding arrangements include provision allowing the funding authority to terminate the funding arrangements if the relevant provider ceases to be on the list in respect of that education or training.",
+                    "score": 0.6845089,
+                    "metadata": [
+                        {
+                            "name": "title",
+                            "value": "19List of relevant providers"
+                        },
+                        {
+                            "name": "breadcrumb",
+                            "value": "[\"2022 CHAPTER 21\",\"Part 3Protection for learners\",\"Chapter 1Regulation of post-16 education or traini...\",\"Funding arrangements with post-16 education or tra...\"]"
+                        },
+                        {
+                            "name": "lang",
+                            "value": "eng"
+                        },
+                        {
+                            "name": "section",
+                            "value": "48"
+                        },
+                        {
+                            "name": "offset",
+                            "value": "3998"
+                        },
+                        {
+                            "name": "len",
+                            "value": "297"
+                        }
+                    ],
+                    "documentIndex": 2,
+                    "corpusKey": {
+                        "customerId": 0,
+                        "corpusId": 3,
+                        "semantics": "DEFAULT",
+                        "dim": [],
+                        "metadataFilter": "",
+                        "lexicalInterpolationConfig": null
+                    },
+                    "resultOffset": 782,
+                    "resultLength": 297
+                }
+            ],
+            "status": [
+                {
+                    "code": "QRY__INVALID_DIMENSION",
+                    "statusDetail": "Invalid dimension name: string",
+                    "cause": null
+                }
+            ],
+            "document": [
+                {
+                    "id": "Police, Crime, Sentencing and Courts Act 2022 (c. 32).html",
+                    "metadata": [
+                        {
+                            "name": "X-TIKA:Parsed-By",
+                            "value": "org.apache.tika.parser.html.HtmlParser"
+                        },
+                        {
+                            "name": "dc:title",
+                            "value": "Police, Crime, Sentencing and Courts Act 2022 (c. 32)"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "UTF-8"
+                        },
+                        {
+                            "name": "Content-Type-Hint",
+                            "value": "text/html; charset=utf-8"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/xhtml+xml; charset=UTF-8"
+                        },
+                        {
+                            "name": "title",
+                            "value": "Police, Crime, Sentencing and Courts Act 2022 (c. 32)"
+                        }
+                    ]
+                },
+                {
+                    "id": "Nationality and Borders Act 2022 (c. 36).html",
+                    "metadata": [
+                        {
+                            "name": "X-TIKA:Parsed-By",
+                            "value": "org.apache.tika.parser.html.HtmlParser"
+                        },
+                        {
+                            "name": "dc:title",
+                            "value": "Nationality and Borders Act 2022 (c. 36)"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "UTF-8"
+                        },
+                        {
+                            "name": "Content-Type-Hint",
+                            "value": "text/html; charset=utf-8"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/xhtml+xml; charset=UTF-8"
+                        },
+                        {
+                            "name": "title",
+                            "value": "Nationality and Borders Act 2022 (c. 36)"
+                        }
+                    ]
+                },
+                {
+                    "id": "Skills and Post-16 Education Act 2022 (c. 21).html",
+                    "metadata": [
+                        {
+                            "name": "X-TIKA:Parsed-By",
+                            "value": "org.apache.tika.parser.html.HtmlParser"
+                        },
+                        {
+                            "name": "dc:title",
+                            "value": "Skills and Post-16 Education Act 2022 (c. 21)"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "UTF-8"
+                        },
+                        {
+                            "name": "Content-Type-Hint",
+                            "value": "text/html; charset=utf-8"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/xhtml+xml; charset=UTF-8"
+                        },
+                        {
+                            "name": "title",
+                            "value": "Skills and Post-16 Education Act 2022 (c. 21)"
+                        }
+                    ]
+                },
+                {
+                    "id": "Elections Act 2022 (c. 37).html",
+                    "metadata": [
+                        {
+                            "name": "X-TIKA:Parsed-By",
+                            "value": "org.apache.tika.parser.html.HtmlParser"
+                        },
+                        {
+                            "name": "dc:title",
+                            "value": "Elections Act 2022 (c. 37)"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "UTF-8"
+                        },
+                        {
+                            "name": "Content-Type-Hint",
+                            "value": "text/html; charset=utf-8"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/xhtml+xml; charset=UTF-8"
+                        },
+                        {
+                            "name": "title",
+                            "value": "Elections Act 2022 (c. 37)"
+                        }
+                    ]
+                },
+                {
+                    "id": "Finance Act 2022 (c. 3).html",
+                    "metadata": [
+                        {
+                            "name": "X-TIKA:Parsed-By",
+                            "value": "org.apache.tika.parser.html.HtmlParser"
+                        },
+                        {
+                            "name": "dc:title",
+                            "value": "Finance Act 2022 (c. 3)"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "UTF-8"
+                        },
+                        {
+                            "name": "Content-Type-Hint",
+                            "value": "text/html; charset=utf-8"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/xhtml+xml; charset=UTF-8"
+                        },
+                        {
+                            "name": "title",
+                            "value": "Finance Act 2022 (c. 3)"
+                        }
+                    ]
+                }
+            ],
+            "generated": [],
+            "summary": [
+                {
+                    "text": "The legislation that can help you with a legal matter pertaining to data in schools is the Data Protection Act 2018 [4D]. This act allows for the disclosure of information in certain circumstances without breaching obligations of confidence or other restrictions, as long as it does not contravene the data protection legislation or other specified prohibitions [4A]. It also provides provisions for the processing of personal data by competent authorities [4E]. Additionally, relevant children's legislation, such as the Children Act 1989, may apply in relation to a local authority's functions regarding support, care, and protection of children [49(3)]. The Nationality and Borders Act 2022 may also have implications in certain cases [49(5)]. Please consult these legislations and seek legal advice for specific guidance on your situation.",
+                    "lang": "eng",
+                    "prompt": "",
+                    "status": [],
+                    "futureId": 2
+                }
+            ],
+            "futureId": 1
+        }
+    ],
+    "status": [],
+    "metrics": null
+}

@@ -1,20 +1,52 @@
 const express = require("express");
 const { createProxyMiddleware } = require('http-proxy-middleware');
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./swagger'); // Import the Swagger configuration
 require("dotenv").config();
+
 const app = express();
 const port = 4444; // 4444 for local dev, 3000 for Docker
 
 app.use(express.json());
 app.use("/", express.static("build"));
 
+// Serve the Swagger UI documentation
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 // app.get("/", function (req, res) {
 //   res.render("build/index.html");
 // });
 
+/**
+ * @swagger
+ * /health:
+ *   get:
+ *     summary: Check the health of the server.
+ *     responses:
+ *       200:
+ *         description: Server is healthy.
+ */
 app.get("/health", function (req, res) {
   res.send("OK");
 });
 
+
+/**
+ * @swagger
+ * /v1/query:
+ *   post:
+ *     summary: Proxy a request to an external service.
+ *     description: Proxy a request to an external service with specific headers.
+ *     requestBody:
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             description: The request body data to be sent in the proxy request.
+ *     responses:
+ *       200:
+ *         description: Successfully proxied the request.
+ */
 const proxyOptions = {
   target: `https://${process.env.endpoint}`,
   changeOrigin: true,

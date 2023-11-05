@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 const mkdir = util.promisify(fs.mkdir);
 
 async function saveHTMLPages() {
-  for (let year = 1900; year <= 1959; year++) {
+  for (let year = 2022; year <= 2023; year++) {
     const yearFolder = `data/${year}`;
     await createFolder(yearFolder);
 
