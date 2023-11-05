@@ -43,10 +43,105 @@ app.get("/health", function (req, res) {
  *           schema:
  *             type: object
  *             description: The request body data to be sent in the proxy request.
+ *             properties:
+ *               query:
+ *                 type: string
+ *                 description: The query to be sent to the external service.
+ *               language:
+ *                 type: string
+ *                 description: The language of the query.
+ *               sources:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *                   description: The sources to search.
+ *               rerank:
+ *                 type: boolean
+ *                 description: Whether to rerank the results.
+ *               rerank_num_results:
+ *                 type: number
+ *                 description: The number of results to rerank.
+ *               mmr:
+ *                 type: boolean
+ *                 description: Whether to rerank the results using MMR.
+ *               mmr_num_results:
+ *                 type: number
+ *                 description: The number of results to rerank using MMR.
+ *               mmr_diversity_bias:
+ *                 type: number
+ *                 description: The diversity bias to use for MMR.
+ *               hybrid_search_num_words:
+ *                 type: number
+ *                 description: The number of words to use for hybrid search.
+ *               hybrid_search_lambda_long:
+ *                 type: number
+ *                 description: The lambda long to use for hybrid search.
+ *               hybrid_search_lambda_short:
+ *                 type: number
+ *                 description: The lambda short to use for hybrid search.
+ *               summary_num_results:
+ *                 type: number
+ *                 description: The number of results to use for summary.
+ *               summary_num_sentences:
+ *                 type: number
+ *                 description: The number of sentences to use for summary.
+ *               summary_default_language:
+ *                 type: string
+ *                 description: The default language to use for summary.
+ *               summary_prompt_name:
+ *                 type: string
+ *                 description: The prompt name to use for summary.
+ *               enable_source_filters:
+ *                 type: boolean
+ *                 description: Whether to enable source filters.
+ *           example:
+ *             query: [
+ *               {
+ *                 query: "i need help with a legal matter pertaining to data in schools what legislation can help me?",
+ *                 start: 0,
+ *                 numResults: 10,
+ *                 contextConfig: {
+ *                   charsBefore: 30,
+ *                   charsAfter: 30,
+ *                   sentencesBefore: 3,
+ *                   sentencesAfter: 3,
+ *                   startTag: "<b>",
+ *                   endTag: "</b>"
+ *                 },
+ *                 corpusKey: [
+ *                   {
+ *                     customerId: 1236398232,
+ *                     corpusId: 3,
+ *                     semantics: "DEFAULT",
+ *                     dim: [
+ *                       {
+ *                         name: "string",
+ *                         weight: 0
+ *                       }
+ *                     ],
+ *                     metadataFilter: "part.lang = 'eng'",
+ *                     lexicalInterpolationConfig: {
+ *                       lambda: 0
+ *                     }
+ *                   }
+ *                 ],
+ *                 summary: [
+ *                   {
+ *                     summarizerPromptName: "vectara-summary-ext-v1.2.0",
+ *                     maxSummarizedResults: 3,
+ *                     responseLang: "eng"
+ *                   }
+ *                 ]
+ *               }
+ *             ]
  *     responses:
  *       200:
  *         description: Successfully proxied the request.
+ *       500:
+ *         description: Failed to proxy the request.
  */
+
+
 const proxyOptions = {
   target: `https://${process.env.endpoint}`,
   changeOrigin: true,
