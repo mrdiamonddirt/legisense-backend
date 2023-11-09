@@ -2,8 +2,9 @@
 
 LegiSense is a LabLabAI hackathon project that combines a Node.js Express server with the Vectara API for rag. The frontend of the application is built using Flutter Flow. LegiSense is designed to provide users with an easy way to access and interact with legislative information, making it a powerful tool for anyone interested in tracking and analyzing legislation. It also provides users with a customized AI chat interface.
 
-Front-end:
-https://github.com/zkortam/legisense-frontend
+### Demo App: https://legisense.flutterflow.app/
+
+### Front-end Repo: https://github.com/zkortam/legisense-frontend
 
 
 ## Features
