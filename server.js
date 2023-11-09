@@ -20,6 +20,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 //   res.render("build/index.html");
 // });
 
+// Swagger for the /helth endpoint
 /**
  * @swagger
  * /health:
@@ -29,9 +30,36 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
  *       200:
  *         description: Server is healthy.
  */
+
 app.get("/health", function (req, res) {
   res.send("OK");
 });
+
+// Swagger for the //new/data.feed endpoint
+/**
+ * @swagger
+ * /new/data.feed:
+ *   get:
+ *     summary: Get data from new legislation feed.
+ *     description: Fetch data from the new legislation feed at legislation.gov.uk.
+ *     responses:
+ *       200:
+ *         description: Successful response.
+ *       500:
+ *         description: Internal server error.
+ */
+
+const proxyOptionsNewLegislation = {
+  target: 'https://www.legislation.gov.uk', // Target URL without /new/data.feed
+  changeOrigin: true,
+  // No need for pathRewrite in this case
+  onProxyReq: (proxyReq, req) => {
+    proxyReq.setHeader('grpc-timeout', '60S');
+  },
+};
+
+app.use('/new/data.feed', createProxyMiddleware(proxyOptionsNewLegislation));
+
 
 /* Swagger documentation for the /chat/completions endpoint */
 /**
@@ -88,31 +116,7 @@ const proxyOptionsChat = {
 
 app.use('/chat/completions', createProxyMiddleware(proxyOptionsChat));
 
-/**
- * @swagger
- * /new/data.feed:
- *   get:
- *     summary: Get data from new legislation feed.
- *     description: Fetch data from the new legislation feed at legislation.gov.uk.
- *     responses:
- *       200:
- *         description: Successful response.
- *       500:
- *         description: Internal server error.
- */
-
-const proxyOptionsNewLegislation = {
-  target: 'https://www.legislation.gov.uk', // Target URL without /new/data.feed
-  changeOrigin: true,
-  // No need for pathRewrite in this case
-  onProxyReq: (proxyReq, req) => {
-    proxyReq.setHeader('grpc-timeout', '60S');
-  },
-};
-
-app.use('/new/data.feed', createProxyMiddleware(proxyOptionsNewLegislation));
-
-
+// Swagger for the /v1/query endpoint
 /**
  * @swagger
  * /v1/query:
@@ -243,138 +247,138 @@ const proxyOptions = {
 };
 app.use('/v1/query', createProxyMiddleware(proxyOptions));
 
-app.post("/config", (req, res) => {
-  const {
-    // Search
-    endpoint,
-    corpus_id,
-    customer_id,
-    api_key,
+// app.post("/config", (req, res) => {
+//   const {
+//     // Search
+//     endpoint,
+//     corpus_id,
+//     customer_id,
+//     api_key,
 
 
-    // everything after this point isn't setup yet
-    // App
-    ux,
-    app_title,
-    enable_app_header,
-    enable_app_footer,
+//     // everything after this point isn't setup yet
+//     // App
+//     ux,
+//     app_title,
+//     enable_app_header,
+//     enable_app_footer,
 
-    // App header
-    app_header_logo_link,
-    app_header_logo_src,
-    app_header_logo_alt,
-    app_header_logo_height,
-    app_header_learn_more_link,
-    app_header_learn_more_text,
+//     // App header
+//     app_header_logo_link,
+//     app_header_logo_src,
+//     app_header_logo_alt,
+//     app_header_logo_height,
+//     app_header_learn_more_link,
+//     app_header_learn_more_text,
 
-    // Filters
-    enable_source_filters,
-    all_sources,
-    sources,
+//     // Filters
+//     enable_source_filters,
+//     all_sources,
+//     sources,
 
-    // summary
-    summary_default_language,
-    summary_num_results,
-    summary_num_sentences,
-    summary_prompt_name,
+//     // summary
+//     summary_default_language,
+//     summary_num_results,
+//     summary_num_sentences,
+//     summary_prompt_name,
 
-    // hybrid search
-    hybrid_search_num_words,
-    hybrid_search_lambda_long,
-    hybrid_search_lambda_short,
+//     // hybrid search
+//     hybrid_search_num_words,
+//     hybrid_search_lambda_long,
+//     hybrid_search_lambda_short,
 
-    // rerank
-    rerank,
-    rerank_num_results,
+//     // rerank
+//     rerank,
+//     rerank_num_results,
 
-    // MMR
-    mmr,
-    mmr_num_results,
-    mmr_diversity_bias,
+//     // MMR
+//     mmr,
+//     mmr_num_results,
+//     mmr_diversity_bias,
 
-    // Search header
-    search_logo_link,
-    search_logo_src,
-    search_logo_alt,
-    search_logo_height,
-    search_title,
-    search_description,
-    search_placeholder,
+//     // Search header
+//     search_logo_link,
+//     search_logo_src,
+//     search_logo_alt,
+//     search_logo_height,
+//     search_title,
+//     search_description,
+//     search_placeholder,
 
-    // Auth
-    authenticate,
-    google_client_id,
+//     // Auth
+//     authenticate,
+//     google_client_id,
 
-    // Analytics
-    google_analytics_tracking_code,
-    full_story_org_id,
-  } = process.env;
+//     // Analytics
+//     google_analytics_tracking_code,
+//     full_story_org_id,
+//   } = process.env;
 
-  res.send({
-    // Search
-    endpoint,
-    corpus_id,
-    customer_id,
-    api_key,
+//   res.send({
+//     // Search
+//     endpoint,
+//     corpus_id,
+//     customer_id,
+//     api_key,
 
-    // everything after this point isn't setup yet
-    // App
-    ux,
-    app_title,
-    enable_app_header,
-    enable_app_footer,
+//     // everything after this point isn't setup yet
+//     // App
+//     ux,
+//     app_title,
+//     enable_app_header,
+//     enable_app_footer,
 
-    // App header
-    app_header_logo_link,
-    app_header_logo_src,
-    app_header_logo_alt,
-    app_header_logo_height,
-    app_header_learn_more_link,
-    app_header_learn_more_text,
+//     // App header
+//     app_header_logo_link,
+//     app_header_logo_src,
+//     app_header_logo_alt,
+//     app_header_logo_height,
+//     app_header_learn_more_link,
+//     app_header_learn_more_text,
 
-    // Filters
-    enable_source_filters,
-    all_sources,
-    sources,
+//     // Filters
+//     enable_source_filters,
+//     all_sources,
+//     sources,
 
-    // summary
-    summary_default_language,
-    summary_num_results,
-    summary_num_sentences,
-    summary_prompt_name,
+//     // summary
+//     summary_default_language,
+//     summary_num_results,
+//     summary_num_sentences,
+//     summary_prompt_name,
 
-    // hybrid search
-    hybrid_search_num_words,
-    hybrid_search_lambda_long,
-    hybrid_search_lambda_short,
+//     // hybrid search
+//     hybrid_search_num_words,
+//     hybrid_search_lambda_long,
+//     hybrid_search_lambda_short,
 
-    // rerank
-    rerank,
-    rerank_num_results,
+//     // rerank
+//     rerank,
+//     rerank_num_results,
 
-    // MMR
-    mmr,
-    mmr_num_results,
-    mmr_diversity_bias,
+//     // MMR
+//     mmr,
+//     mmr_num_results,
+//     mmr_diversity_bias,
 
-    // Search header
-    search_logo_link,
-    search_logo_src,
-    search_logo_alt,
-    search_logo_height,
-    search_title,
-    search_description,
-    search_placeholder,
+//     // Search header
+//     search_logo_link,
+//     search_logo_src,
+//     search_logo_alt,
+//     search_logo_height,
+//     search_title,
+//     search_description,
+//     search_placeholder,
 
-    // Auth
-    authenticate,
-    google_client_id,
+//     // Auth
+//     authenticate,
+//     google_client_id,
 
-    // Analytics
-    google_analytics_tracking_code,
-    full_story_org_id,
-  });
-});
+//     // Analytics
+//     google_analytics_tracking_code,
+//     full_story_org_id,
+//   });
+// });
 
 app.listen(port, () => {
   console.log(`Example app listening at ${process.env.server_endpoint}`); // https://legisense-backend.onrender.com for deployment
