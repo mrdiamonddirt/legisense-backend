@@ -9,7 +9,7 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: `https://legisense-backend.onrender.com/`, // Update with your actual server URL
+      url: `https://legisense-backend.onrender.com/`, // Update with your actual server URL this is http://localhost:4444 when testing locally https://legisense-backend.onrender.com/
       description: 'onrender server',
     },
   ],

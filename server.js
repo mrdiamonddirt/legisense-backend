@@ -33,6 +33,60 @@ app.get("/health", function (req, res) {
   res.send("OK");
 });
 
+/* Swagger documentation for the /chat/completions endpoint */
+/**
+ * @swagger
+ * /chat/completions:
+ *   post:
+ *     summary: Get chat completions.
+ *     description: Get chat completions from an external API.
+ *     requestBody:
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               model:
+ *                 type: string
+ *               messages:
+ *                 type: array
+ *               temperature:
+ *                 type: number
+ *           example:
+ *             model: "meta-llama/Llama-2-70b-chat-hf"
+ *             messages:
+ *               - role: "system"
+ *                 content: "You are a helpful assistant."
+ *               - role: "user"
+ *                 content: "I need help with my legal matter."
+ *             temperature: 0.7
+ *     responses:
+ *       200:
+ *         description: Successful response
+ *       500:
+ *         description: Internal server error
+ */
+
+// Proxy route for making the POST request
+const proxyOptionsChat = {
+  target: `https://${process.env.llm_url}`,
+  changeOrigin: true,
+  pathRewrite: { '^/chat/completions': '/chat/completions' },
+  onProxyReq: (proxyReq, req) => {
+    proxyReq.setHeader("Content-Type", "application/json");
+    proxyReq.setHeader("Accept", "application/json");
+    proxyReq.setHeader("Authorization", `Bearer ${process.env.token}`);
+    proxyReq.setHeader("grpc-timeout", "60S");
+
+    if (req.body) {
+      const bodyData = JSON.stringify(req.body);
+      proxyReq.setHeader('Content-Length', Buffer.byteLength(bodyData));
+      proxyReq.write(bodyData);
+    }
+  },
+};
+
+app.use('/chat/completions', createProxyMiddleware(proxyOptionsChat));
 
 /**
  * @swagger
@@ -143,7 +197,6 @@ app.get("/health", function (req, res) {
  *       500:
  *         description: Failed to proxy the request.
  */
-
 
 const proxyOptions = {
   target: `https://${process.env.endpoint}`,
@@ -299,5 +352,5 @@ app.post("/config", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at https://legisense-backend.onrender.com`);
+  console.log(`Example app listening at ${process.env.server_endpoint}`); // https://legisense-backend.onrender.com for deployment
 });
