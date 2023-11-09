@@ -3,3 +3,4 @@
 /node_modules
 .env
 anyscale.py
+/getmoredata

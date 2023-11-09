@@ -90,6 +90,31 @@ app.use('/chat/completions', createProxyMiddleware(proxyOptionsChat));
 
 /**
  * @swagger
+ * /new/data.feed:
+ *   get:
+ *     summary: Get data from new legislation feed.
+ *     description: Fetch data from the new legislation feed at legislation.gov.uk.
+ *     responses:
+ *       200:
+ *         description: Successful response.
+ *       500:
+ *         description: Internal server error.
+ */
+
+const proxyOptionsNewLegislation = {
+  target: 'https://www.legislation.gov.uk', // Target URL without /new/data.feed
+  changeOrigin: true,
+  // No need for pathRewrite in this case
+  onProxyReq: (proxyReq, req) => {
+    proxyReq.setHeader('grpc-timeout', '60S');
+  },
+};
+
+app.use('/new/data.feed', createProxyMiddleware(proxyOptionsNewLegislation));
+
+
+/**
+ * @swagger
  * /v1/query:
  *   post:
  *     summary: Proxy a request to an external service.
